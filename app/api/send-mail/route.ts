@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     const message: Mail.Options = {
         from: "inquiries@visionone.com.my",
         to: "faiz@visionone.com.my",
-        subject,
+         subject: "Contact Form Email Vision One Website",
         text: `You have a new message from your contact form:\n\n` +
               `Name: ${name}\n` +
               `Email: ${email}\n` +
